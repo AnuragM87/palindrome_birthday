@@ -31,17 +31,7 @@ body{
     border: 1px solid var(--primary-color);
 }
 
-footer{
-    background-color: var(--primary-color);
-    padding: 2rem 0rem;
-    margin-top: 2rem;
-    text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
 
-
-}
 .list-non-bullet{
     list-style:none;
 
@@ -75,6 +65,17 @@ footer{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+}
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    bottom: 0;
+
 }
 
 .footer .link{
